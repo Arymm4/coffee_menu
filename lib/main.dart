@@ -63,7 +63,7 @@ class MenuPage extends StatelessWidget {
                     ),
                     SizedBox(height: 8),
                     Text(
-                      'Fresh coffee, sweet moments.',
+                      'Freshly brewed coffee, made just for you.',
                       style: TextStyle(fontSize: 16, color: Color(0xFF5C4033)),
                     ),
                   ],
