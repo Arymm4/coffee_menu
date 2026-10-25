@@ -30,9 +30,7 @@ class MenuPage extends StatelessWidget {
       appBar: AppBar(
         title: const Text(
           'Myra Coffee',
-          style: TextStyle(
-            fontWeight: FontWeight.bold,
-          ),
+          style: TextStyle(fontWeight: FontWeight.bold),
         ),
         centerTitle: true,
         backgroundColor: const Color(0xFF6F4E37),
@@ -66,10 +64,7 @@ class MenuPage extends StatelessWidget {
                     SizedBox(height: 8),
                     Text(
                       'Fresh coffee, sweet moments.',
-                      style: TextStyle(
-                        fontSize: 16,
-                        color: Color(0xFF5C4033),
-                      ),
+                      style: TextStyle(fontSize: 16, color: Color(0xFF5C4033)),
                     ),
                   ],
                 ),
@@ -149,10 +144,7 @@ class MenuPage extends StatelessWidget {
                 child: const Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Icon(
-                      Icons.favorite,
-                      color: Colors.white,
-                    ),
+                    Icon(Icons.favorite, color: Colors.white),
                     SizedBox(width: 10),
                     Text(
                       'Made with love for coffee lovers',
@@ -191,9 +183,7 @@ class CoffeeCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Card(
       elevation: 4,
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(16),
-      ),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
       child: Padding(
         padding: const EdgeInsets.all(10),
         child: Column(
@@ -239,10 +229,7 @@ class CoffeeCard extends StatelessWidget {
             // Description
             Text(
               description,
-              style: const TextStyle(
-                fontSize: 12,
-                color: Colors.grey,
-              ),
+              style: const TextStyle(fontSize: 12, color: Colors.grey),
             ),
 
             const SizedBox(height: 8),
